@@ -1,15 +1,9 @@
 backgrounds:
-  bus_station: assets/backgrounds/bus_station_afternoon.jpg
-  room: assets/backgrounds/room_day.jpg
-  room_night: assets/backgrounds/room_night.jpg
-  room_night_light: assets/backgrounds/room_night_light.jpg
-  school_morning: assets/backgrounds/school_corridor.jpg
-  school_afternoon: assets/backgrounds/school_corridor_afternoon.jpg
-  street_morning: assets/backgrounds/school_front_morning.jpg
-  street_afternoon: assets/backgrounds/school_front_afternoon.jpg
-  store: assets/backgrounds/store.jpg
+  bunker: assets/backgrounds/bunker.jpg
+  tornado: assets/backgrounds/tornado.jpg
+  worn_house: assets/backgrounds/worn_house.jpg
 characters:
-  Jessica:
+  jessica:
     displayName: Jessica
     speechColour: "#ca90cf"
     looks:
@@ -19,8 +13,8 @@ characters:
       normalC: assets/characters/Char3Normal.png
       happyC: assets/characters/Char3Happy.png
       angryC: assets/characters/Char3Angry.png
-  liz:
-    displayName: Liz
+  selena:
+    displayName: Selena
     speechColour: "#d5e6e7"
     looks:
       normal: assets/characters/Char2NormalSchool.png
@@ -30,46 +24,9 @@ characters:
       happyC: assets/characters/Char2Happy.png
       angryC: assets/characters/Char2Angry.png
 cgs:
-  phone1: assets/objects/phone1.png
-  phone2: assets/objects/phone2.png
-  folders: assets/lessons/folders.png
-  setupbg: assets/lessons/lessonsetupbg.png
-  setupch: assets/lessons/lessonsetupch.png
-  setupcgs: assets/lessons/lessonsetupcgs.png
-  setupaudio: assets/lessons/lessonsetupaudio.png
-  scenestart: assets/lessons/lessonscenestart.png
-  scenehide: assets/lessons/lessonscenehide.png
-  ambientAndEffects: assets/lessons/lessonambientandeffect.png
-  lessonScene: assets/lessons/lessonscene.png
-  lessonChoice: assets/lessons/lessonchoice.png
-  lessonVisualChoice: assets/lessons/lessonvisualchoice.png
-  lessonVarsNumeric: assets/lessons/lessonvarsnumeric.png
-  lessonVarsBoolean: assets/lessons/lessonvarsboolean.png
-  lessonVarsBooleanCont: assets/lessons/lessonvarsbooleancont.png
-  lessonVarsString: assets/lessons/lessonvarsstring.png
-  lessonIf: assets/lessons/lessonif.png
-  lessonIfCont: assets/lessons/lessonifcont.png
-  lessonGUI: assets/lessons/lessonGUI.png
-  lessonGUIAudio: assets/lessons/lessonGUIAudio.png
-  lessonGUIFonts: assets/lessons/lessonGUIFonts.png
-  lessonGUIImages: assets/lessons/lessonGUIImages.png
-  lessonGUISpritesheets: assets/lessons/lessonGUISpritesheets.png
-  lessonGUIHUD: assets/lessons/lessonGUIhud.png
-  lessonGUIHUDcont: assets/lessons/lessonGUIhudcont.png
-  lessonGUIHUDcont2: assets/lessons/lessonGUIhudcont2.png
-  lessonGUIHUDcont3: assets/lessons/lessonGUIhudcont3.png
-  lessonGUIMenu: assets/lessons/lessonGUIMenu.png
-  lessonGUISliders: assets/lessons/lessonGUISliders.png
-music:
-  rollingCredits: assets/audio/Evan_Schaeffer_-_01_-_Aqueduct.mp3
-  morningBGM: assets/audio/Evan_Schaeffer_-_03_-_Glow.mp3
-  storeBGM: assets/audio/Evan_Schaeffer_-_18_-_Big_Tree.mp3
-  cicadas: assets/audio/Cicada.mp3
-  rain: assets/audio/Rain.mp3
+    
 sfx:
-  ringtoneSFX: assets/audio/nokia6210-24-elise.mp3
-  ringtoneSFX2: assets/audio/alcatel-top_secret.mp3
-  thunderSFX: assets/audio/thunder_strike_1.mp3
+  
 extra:
   image:
     title: assets/gui/titles.png
