@@ -1,7 +1,7 @@
 backgrounds:
   bunker: assets/backgrounds/bunker.jpg
-  tornado: assets/backgrounds/tornado.jpg
-  worn_house: assets/backgrounds/worn_house.jpg
+  tornado: assets/backgrounds/tornado.png
+  worn_house: assets/backgrounds/worn_house2.png
 characters:
   jessica:
     displayName: Jessica
