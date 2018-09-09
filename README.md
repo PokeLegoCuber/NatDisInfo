@@ -2,7 +2,7 @@
 Our project is a visual novel that teaches the player how to survive in a real-world scenario where a tornado is about to strike their primary residence.
 
 # Authors
-* [Thotsaphon Janrungrdsakun](https://github.com/ThotsaphonB)
+* [Thotsaphon Janrungrodsakun](https://github.com/ThotsaphonB)
 * [Vincent Xie](https://github.com/PokeLegoCuber)
 
 # Special Thanks
