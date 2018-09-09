@@ -23,6 +23,11 @@ characters:
       normalC: assets/characters/Char2Normal.png
       happyC: assets/characters/Char2Happy.png
       angryC: assets/characters/Char2Angry.png
+  invisible:
+    displayName: Narrator
+    speechColour: "#d5e6e7"
+    looks:
+      normal: assets/characters/nochar.png
 cgs:
     
 sfx:

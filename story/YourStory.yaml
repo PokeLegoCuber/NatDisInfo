@@ -1,4 +1,59 @@
 
 start:
   - show bunker: WITH FADE
-  
+  - show invisible: normal
+  - invisible says: You recently heard on the news that there would be a tornado headed towards your area.
+  - invisible says: You and your family are preparing for the disaster that will come.
+  - effect SHOWTITLE: 
+    title: Act 1
+    subtitle: Preparing for the tornado
+  - invisible says: You find a pack of batteries and you check the date to find that it is 4 years old.
+  - invisible says: Should you keep it?
+  - choice:
+    - Yes!, It should be good enough.:
+      - invisible says: No you shouldn't, a battery's average life span is 3 to 5 years.
+      - invisible says: You should go to the store and buy new batteries.
+    - Of course invisible says:ible says: Yes, you should go to the store and buy new batteries as a battery's average life span is 3 to 5 hours.
+  - invisible says: You find an air horn and some glowsticks which seems silly.
+  - invisible says: Should you keep it? 
+  - choice:
+    - Yeah could be useful or fun:
+      - invisible says: An air horn can be used for signaling so other people would be able to know where to look for you!
+      - invisible says: Also glowsticks can be a good source of light in case of failure of electric equipment.
+    - No that's ridiclous, GET RID OF IT!:
+      - invisible says: Actually an air horn is pretty useful, it can be used for signaling so other people would be able to know where to look for you!
+      - invisible says: Also glowsticks can be a good source of light in case of failure of electric equipment.
+  - invisible says: Your powerbanks are at 50%
+  - invisible says: Should you charge them?
+  - choice:
+    - Yeah, sounds reasonable.:
+      - invisible says: You're right, having them fully charged will allow you to charge electronic devices without the use of wall outlets.
+      - invisible says: And who knows? You may not have power for a while due to potentially fallen powerlines.
+    - Nah, it should last the duration of the tornado.:
+      - invisible says: You should charge them!!! You may not have power for a while due to potentially fallen powerlines.
+      - invisible says: Having them fully charged will allow you to charge electronic devices without the use of wall outlets.
+  - invisible says: You check your First Aid Kit and you notice that you are lacking bandages!
+  - invisible says: Should you go buy some from the local pharmacy?
+  - choice:
+    - Yeah, makes sense to me:
+      - invisible says: Correct!
+      - invisible says: Stocking up on a sufficent amount of medical supplies is very important so that you can be prepared for any emergency. 
+    - Nah, I'll make do with what I have.:
+      - invisible says: No you should go buy bandages!
+      - invisible says: Stocking up on a sufficent amount of medical supplies is very important so that you can be prepared for any emergency. 
+  - invisible says: You find canned food that expires next year.
+  - invisible says: Should you throw it out?
+  - choice:  
+    - Yeah, seems a bit icky!:
+      - invisible says: No, the canned food is totally fine. No need to waste perfectly good food.
+    - Why would I? It's alright to eat:
+      - invisible says: You're absolutely correct! No need to waste perfectly good food.
+  - invisible says: You find an radio. Should you keep it or chuck it?
+  - choice:
+    - Keep it, it could be helpful!:
+      - invisible says: You're absultey right!
+      - invisible says: The radio can be used to tune into emergency relief stations to hear what citizens should be doing.
+    - Nah, chuck that junk outta here!:
+      - invisible says: What are you doing?!?! Keep the darn thing.
+      - invisible says: The radio can be used to tune into emergency relief stations to hear what citizens should be doing.
+                
