@@ -1,7 +1,8 @@
 backgrounds:
   bunker: assets/backgrounds/bunker.jpg
   tornado: assets/backgrounds/tornado.png
-  worn_house: assets/backgrounds/worn_house2.png
+  worn_house: assets/backgrounds/worn_house.png
+  end: assets/backgrounds/end.png
 characters:
   jessica:
     displayName: Jessica
@@ -29,9 +30,21 @@ characters:
     looks:
       normal: assets/characters/nochar.png
 cgs:
-    
+    airhorn: assets/items/airhorn.png
+    band: assets/items/band.png
+    battery: assets/items/battery.png
+    bike_helmet: assets/items/bike_helmet.png
+    boots: assets/items/boot.png
+    broken_glass: assets/items/broken_glass.png
+    can_food: assets/items/can_food.png
+    debri: assets/items/falling_debri.png
+    first_aid: assets/items/first_aid.png
+    glow_stick: assets/items/glow_stick.png
+    powerbank: assets/items/power.png
 sfx:
-  
+  correct: assets/audio/correct.mp3
+  wrong: assets/audio/wrong.mp3
+  wind: assets/audio/tornado_sound.mp3
 extra:
   image:
     title: assets/gui/titles.png
