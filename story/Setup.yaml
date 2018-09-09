@@ -9,8 +9,8 @@ backgrounds:
   street_afternoon: assets/backgrounds/school_front_afternoon.jpg
   store: assets/backgrounds/store.jpg
 characters:
-  deuzi:
-    displayName: Deuzilene
+  Jessica:
+    displayName: Jessica
     speechColour: "#ca90cf"
     looks:
       normal: assets/characters/Char3NormalSchool.png
@@ -29,27 +29,6 @@ characters:
       normalC: assets/characters/Char2Normal.png
       happyC: assets/characters/Char2Happy.png
       angryC: assets/characters/Char2Angry.png
-  marco:
-    displayName: Marco
-    speechColour: "#123022"
-    looks:
-      normal: assets/characters/Char1NormalSchool.png
-      happy: assets/characters/Char1HappySchool.png
-      angry: assets/characters/Char1AngrySchool.png
-      worry: assets/characters/Char1WorrySchool.png
-      normalC: assets/characters/Char1Normal.png
-      happyC: assets/characters/Char1Happy.png
-      angryC: assets/characters/Char1Angry.png
-  jair:
-    displayName: Jair
-    speechColour: "#6a2b2b"
-    looks:
-      normal: assets/characters/Char4NormalSchool.png
-      happy: assets/characters/Char4HappySchool.png
-      angry: assets/characters/Char4AngrySchool.png
-      normalC: assets/characters/Char4Normal.png
-      happyC: assets/characters/Char4Happy.png
-      angryC: assets/characters/Char4Angry.png
 cgs:
   phone1: assets/objects/phone1.png
   phone2: assets/objects/phone2.png
