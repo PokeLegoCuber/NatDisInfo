@@ -6,4 +6,4 @@ Our project is a visual novel that teaches the player how to survive in a real-w
 * [Vincent Xie](https://github.com/PokeLegoCuber)
 
 ## Special Thanks
-* Jeremy Lin
+* Jeremy Ahn
