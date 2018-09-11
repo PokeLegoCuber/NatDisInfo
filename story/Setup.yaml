@@ -41,6 +41,7 @@ cgs:
     first_aid: assets/items/first_aid.png
     glow_stick: assets/items/glow_stick.png
     powerbank: assets/items/power.png
+    radio: assets/items/radio.png
 sfx:
   correct: assets/audio/correct.mp3
   wrong: assets/audio/wrong.mp3
