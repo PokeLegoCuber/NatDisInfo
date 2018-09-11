@@ -2,7 +2,7 @@
 NatDisInfo was built at PennApps XVIII Fall 2018. NatDisInfo is a series of visual novels that teaches the player how to survive in real-world scenarios when a natural disaster is about to strike.
 
 Visit the website here:
-https://pokelegocuber.github.io/PennAppsXVIII_Project/
+https://pokelegocuber.github.io/NatDisInfo/
 
 ## Original Owner of Repo: ThotsaphonB
 #### Link to ThotsaphonB GitHub page:
