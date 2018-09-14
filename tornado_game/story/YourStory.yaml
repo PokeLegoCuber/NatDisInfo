@@ -1,0 +1,141 @@
+
+start:
+  - show bunker: WITH FADE
+  - show invisible: normal
+  - invisible says: You recently heard on the news that there would be a tornado headed towards your area.
+  - invisible says: You and your family are preparing for the disaster that will come.
+  - effect SHOWTITLE: 
+    title: Act 1
+    subtitle: Preparing for the tornado
+  - show battery:
+  - invisible says: You find a pack of batteries and you check the date to find that it is 4 years old.
+  - invisible says: Should you keep it?
+  - choice:
+    - Yes!, It should be good enough.:
+      - play wrong:
+      - invisible says: No you shouldn't, a battery's average life span is 3 to 5 years.
+      - invisible says: You should go to the store and buy new batteries.
+    - Of course not!:
+      - play correct:
+      - invisible says: Yes, you should go to the store and buy new batteries as a battery's average life span is 3 to 5 years.
+  - hide battery:
+  - show airhorn :
+  - invisible says: You find an air horn and some glowsticks which seems silly.
+  - invisible says: Should you keep it? 
+  - choice:
+    - Yeah could be useful or fun:
+      - play correct:
+      - invisible says: An air horn can be used for signaling so other people would be able to know where to look for you!
+      - invisible says: Also glowsticks can be a good source of light in case of failure of electric equipment.
+    - No that's ridiclous, GET RID OF IT!:
+      - play wrong:
+      - invisible says: Actually an air horn is pretty useful, it can be used for signaling so other people would be able to know where to look for you!
+      - invisible says: Also glowsticks can be a good source of light in case of failure of electric equipment.
+  - hide airhorn:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+  - show powerbank:
+  - invisible says: Your powerbanks are at 50%
+  - invisible says: Should you charge them?
+  - choice:
+    - Yeah, sounds reasonable.:
+      - play correct:
+      - invisible says: You're right, having them fully charged will allow you to charge electronic devices without the use of wall outlets.
+      - invisible says: And who knows? You may not have power for a while due to potentially fallen powerlines.
+    - Nah, it should last the duration of the tornado.:
+      - play wrong:
+      - invisible says: You should charge them!!! You may not have power for a while due to potentially fallen powerlines.
+      - invisible says: Having them fully charged will allow you to charge electronic devices without the use of wall outlets.
+  - hide powerbank:
+  - show first_aid:
+  - invisible says: You check your First Aid Kit and you notice that you are lacking bandages!
+  - invisible says: Should you go buy some from the local pharmacy?
+  - choice:
+    - Yeah, makes sense to me:
+      - play correct:
+      - invisible says: Correct!
+      - invisible says: Stocking up on a sufficent amount of medical supplies is very important so that you can be prepared for any emergency. 
+    - Nah, I'll make do with what I have.:
+      - play wrong:
+      - invisible says: No you should go buy bandages!
+      - invisible says: Stocking up on a sufficent amount of medical supplies is very important so that you can be prepared for any emergency. 
+  - hide first_aid:
+  - show can_food:
+  - invisible says: You find canned food that expires next year.
+  - invisible says: Should you throw it out?
+  - choice:  
+    - Yeah, seems a bit icky!:
+      - play wrong:
+      - invisible says: No, the canned food is totally fine. No need to waste perfectly good food.
+    - Why would I? It's alright to eat:
+      - play correct:
+      - invisible says: You're absolutely correct! No need to waste perfectly good food.
+  - hide can_food:
+  - show radio:
+  - invisible says: You find an radio. Should you keep it or chuck it?
+  - choice:
+    - Keep it, it could be helpful!:
+      - play correct:
+      - invisible says: You're absolutely right!
+      - invisible says: The radio can be used to tune into emergency relief stations to hear what citizens should be doing.
+    - Nah, chuck that junk outta here!:
+      - play wrong:
+      - invisible says: What are you doing?!?! Keep the darn thing.
+      - invisible says: The radio can be used to tune into emergency relief stations to hear what citizens should be doing.
+  - hide radio:
+  - hide invisible:
+  - scene: storySetup
+
+storySetup:
+  - show tornado: WITH FADE
+  - play wind:
+  - hide tornado: WITH FADE
+  - effect SHOWTITLE:
+    title: Act II
+    subtitle: During Tornado Rampage
+  - show bunker: WITH FADE
+  - show invisible: normal
+  - show debri:
+  - invisible says: It's been a few hours and it sounds quiet. Should you go upstairs to check what it looks like outside?
+  - choice:
+    - Why not? There I don't hear anything outside, therefore nothing is happening.:
+      - play wrong:
+      - invisible says: You shouldn't go up!
+      - invisible says: Even though it might be silent doesn't mean that the tornado isn't still around!
+      - invisible says: You should listen closely to the radio for further instructions.
+    - No, doesn't seem like a good idea...:
+      - play correct:
+      - invisible says: You're absoutely right!
+      - invisible says: You should listen closely to the radio for further instructions.
+  - hide debri:
+  - invisible says: You and your family are all wearing old bicycle helmets but your little sister says it feels uncomfortable.
+  - invisible says: Do you let her take the helmet off?
+  - show bike_helmet:
+  - choice:
+    - Of course! You want all your family members to feel comfortable.:
+      - play wrong:
+      - invisible says: Don't let her take off the helmet. There is a possiblty that your secure structure can fail.
+      - invisible says: If so, potential debri can enter, the helmet acts as a layer of protection for your head.
+    - Don't let her, let her know it's for her safety.:
+      - play correct:
+      - invisible says: That is the correct approach! There is a possiblty that your secure structure can fail.
+      - invisible says: If so, potential debri can enter, the helmet acts as a layer of protection for your head.
+  - hide bike_helmet:
+  - scene: lastscene
+
+lastscene:
+  - show worn_house: WITH FADE
+  - effect SHOWTITLE:
+    title: Act III
+    subtitle: After Tornado Rampage
+  - show invisible: normal
+  - invisible says: The storm is finally over and you are about to walk outside with sneakers. Is this okay?
+  - show broken_glass:
+  - choice:
+    - Why wouldn't it be? Sneakers are all-purpose shoes.:
+      - play wrong:
+      - invisible says: No that would be terrible. You would need to wear hard-soled shoes to avoid stepping on potentially sharp debris like broken glass.
+    - No way, sounds a bit risky.:
+      - play correct:
+      - invisible says: You are right! Wearing hard-soled shoes could help you avoid stepping on potentially sharp debris like broken glass.
+  - hide broken_glass:
+  - hide worn_house: WITH FADE
+  - show end: WITH FADE
