@@ -37,9 +37,10 @@ cgs:
     boots: assets/items/boot.png
     broken_glass: assets/items/broken_glass.png
     can_food: assets/items/can_food.png
-    debri: assets/items/falling_debri.png
+    debri: assets/items/falling_debris.png
     first_aid: assets/items/first_aid.png
-    glow_stick: assets/items/glow_stick.png
+    glow_stick: assets/items/glowstick.png
+    no_band: assets/items/no_band.png
     powerbank: assets/items/power.png
     radio: assets/items/radio.png
 sfx:

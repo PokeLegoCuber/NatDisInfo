@@ -1,49 +1,33 @@
-	body 
-	{
-		background-color: #003399;
-		font-family: 'Montserrat', sans-serif;
-		text-align: center;
-	}
-	
-	
-	b
-	{
-	   text-align: center;
-	   color: #ffffff;
-	   font-size: 5em;
-	}
+body
+{
+	background-color: #003399;
+	color: white;
+}
 
-	.text-space
-	{
-		margin-top: 5em;
+.title
+{
+	font-size: 75px;
+	text-align: center;
+}
 
-	}
+.headspace
+{
+	padding-top: 5%;
+}
 
-	.other-space
-	{
-		margin-top: 2em;
-	}
+footer
+{
+	background-color: #343A40;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
 
-	.img-width
-	{
-		max-width: 124em;
-	}
+.card-text
+{
+	color: black;
+}
 
-	p
-	{
-		text-align: center;
-		color: #ffffff;
-		font-size: 1.5em;
-	}
-
-
-hr {
- border:none;
- height: 20px;
-    width: 90%;
-    height: 50px;
-    margin-top: 0;
-     border-bottom: 1px solid #1f1209 ; 
-    box-shadow: 0 20px 5px -20px #333;
- margin: -50px auto 10px;
+.test
+{
+	align-self: left;
 }
